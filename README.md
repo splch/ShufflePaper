@@ -30,4 +30,4 @@ Only Chrome OS devices are supported as the [wallpaper api](https://developer.ch
 
 This sourcecode is licensed under the [MIT license](LICENSE).
 
-Icon made by [Popcorns Arts](http://www.flaticon.com/authors/popcorns-arts) from [Flaticon](www.flaticon.com).
+Icon made by [Popcorns Arts](http://www.flaticon.com/authors/popcorns-arts) from [Flaticon](http://www.flaticon.com/).
