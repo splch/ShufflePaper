@@ -1,6 +1,9 @@
 # ShufflePaper
 Choose a folder and have your Chromebook automatically shuffle through the wallpapers in it!
 
+**IMPORTANT:**
+The files in the assets folder (the icons) are replaced by empty icons in order to comply with the copyright rules from Flaticon. The packaged apps in the Chrome Web Store and the .crx files in the releases
+
 <img src="screenshots/screenshot.png"/>
 
 ## Installation
@@ -8,23 +11,7 @@ Choose a folder and have your Chromebook automatically shuffle through the wallp
 
 Only Chrome OS devices are supported as the [wallpaper api](https://developer.chrome.com/apps/wallpaper) isn't available on other platforms.
 
-## Version history
-
-**v0.9.2:**
-
-- Small bugfix
-
-**v0.9.1:**
-
-- Fixed a visual bug when selecting external folders
-- Small improvements to the interface
-- Check if the file is in either the jpeg or png format before trying to set it as a wallpaper
-
-**v0.9.0: (initial relerase)**
-
-- Select a folder
-- Toggle: New wallpaper every 15 minutes
-- Toggle: Random mode instead of alphanumerically ordered wallpapers
+[Click here](https://github.com/CiriousJoker/ShufflePaper/releases/latest) to go to the latest release here on Github.
 
 ## Legal
 
