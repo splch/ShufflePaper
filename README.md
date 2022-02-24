@@ -1,39 +1,82 @@
-# ShufflePaper
-Choose a folder and have your Chromebook automatically shuffle through the wallpapers in it!
+# ShufflePaper2
 
-**IMPORTANT:**
+A wallpaper manager fork for Chrome OS.
 
-The files in the assets folder (the icons) are replaced with empty icons in order to comply with the copyright rules of Flaticon. The packaged apps in the Chrome Web Store and the .crx files in the [releases](https://github.com/CiriousJoker/ShufflePaper/releases/latest) still contain the icons, but I'm not allowed to distribute them as files.
+Wallpapers are picked randomly or in order in an interval depending on your choice.
 
-## v1.2.0
-- Bugfixes
-- A little bit better code style
+### Table of contents
 
-## v1.1.1
-### Features
-- Select a folder with images you want to use as wallpaper candidates
-- Button: Manually change wallpaper
+- [Features](#features)
+- [Changelog](#changelog)
+- [Installation](#installation)
+
+---
+
+### Features:
+
+- Select a folder with your wallpapers
 - Optional: Customizable delay between wallpaper changes
-- Optional: Shuffle images randomly
-- 3 different wallpaper modes (stretched, centered & centered+cropped)
+- Optional: Shuffle wallpapers randomly
+- 3 different wallpaper modes (stretched, centered & cropped)
 
-## Screenshots (v1.0.0)
+### Changelog
 
-<img src="screenshots/en/ScreenshotGeneral.png"/>
+#### v2.0.0:
 
-|                      Delay                       |                      About                       |
-| ------------------------------------------------ | ------------------------------------------------ |
-| <img src="screenshots/en/ScreenshotDelay.png"/>  | <img src="screenshots/en/ScreenshotAbout.png"/>  |
+- **New icon**
+- **New design**
+- **Stability:** Updated libraries to latest versions
+- **Feature:** More folder types can be selected
+- **Feature:** Subfolders are now included when searching for the next image
+- **Feature:** The number of images and non-images is now displayed at the top
+- **Feature:** Improved path formatting
+- **Bugfix:** Settings weren't saved properly
+- **Bugfix:** Visual inconsistency
+- **Bugfix:** Only the first 100 files were detected in a folder
+- **Stability:** Under the hood code improvements
+
+> **Hidden changes**
+>
+> - Added notifications to build a rapport with the user and to notify of updates
+> - Added snackbar to notify of events while the app is open
+
+#### v1.2.1:
+
+- **Bugfix:** Layout settings and random mode weren't saved properly
+
+#### v1.2.0:
+
+- **Bugfix:** Folder couldn't be selected properly
+
+#### v1.1.0:
+
+- **Feature:** 3 different layouts (stretched, centered or cropped)
+
+#### v1.0.0:
+
+- **New design**
+- **Feature:** Customizable delay between wallpaper changes
+- **Feature:** Share button
+- **Stability:** Improved error handling
+- **Bugfixes**
+- **New Language:** German
+
+#### v0.9.2:
+
+- **Bugfixes**
+
+#### v0.9.1:
+
+- **Improved design**
+- **Bugfix:** External folder paths weren't formatted properly
+- **Stability:** Now checks if the next file is actually an image before setting it as a wallpaper
+
+#### v0.9.0:
+
+- **Initial release**
 
 ## Installation
-<a href='https://chrome.google.com/webstore/detail/shufflepaper/ghcndibmdbeipgggdddmecagpkllglpj?utm_campaign=PartBadge'><img alt='Get it on the Chrome Webstore' src='https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png' height="58px"/></a>
 
-Only Chrome OS devices are supported as the [wallpaper api](https://developer.chrome.com/apps/wallpaper) isn't available on other platforms.
+<a href='https://chrome.google.com/webstore/detail/ghcndibmdbeipgggdddmecagpkllglpj?utm_campaign=PartBadge'><img alt='Get it on the Chrome Webstore' src='https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png' height="96px"/></a>
 
-[Click here](https://github.com/CiriousJoker/ShufflePaper/releases/latest) to go to the latest release here on Github.
-
-## Legal
-
-This sourcecode is licensed under the [MIT license](LICENSE).
-
-Icon made by [Popcorns Arts](http://www.flaticon.com/authors/popcorns-arts) from [Flaticon](http://www.flaticon.com/).
+[Or click here](https://github.com/splch/ShufflePaper/releases/latest) to go to the latest release here on Github.
